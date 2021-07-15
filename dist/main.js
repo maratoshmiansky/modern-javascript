@@ -9,16 +9,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("var math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\nconsole.log(\"Hello from JavaScript!\");\nvar answer = math.evaluate(\"7.13 / (8.14 - 2.49)\");\nconsole.log(answer);\nconsole.log(math.round(math.e, 3));\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
@@ -186,6 +176,16 @@ eval("var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ \"
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__(/*! regenerator-runtime */ \"./node_modules/regenerator-runtime/runtime.js\");\n\n\n//# sourceURL=webpack://modern-javascript/./node_modules/@babel/runtime/regenerator/index.js?");
+
+/***/ }),
+
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"Hello from JavaScript!\");\nvar answer = math.evaluate(\"7.13 / (8.14 - 2.49)\");\nconsole.log(answer);\nconsole.log(math.round(math.e, 3));\nvar name = \"Jenny\";\nvar now = \"today\";\nconsole.log(\"Hello, \".concat(name, \"!  It is currently \").concat(now, \".\"));\nvar array = [5, 1, 3, 4, 2];\nconsole.log(array.sort().map(function (num) {\n  return num * 2;\n}));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
